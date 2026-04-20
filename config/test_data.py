@@ -33,4 +33,5 @@ class YaScooterTestData:
         'comment': 'Позвонить за 30 минут'
     }
 
-    ORDER_SETS = [ORDER_DATA_1, ORDER_DATA_2]
+
+
