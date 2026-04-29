@@ -7,7 +7,7 @@ from config.urls import Urls
 
 class HomePage(BasePage):
 
-    @allure.step('ОТкрыть главную страницу')
+    @allure.step('Открыть главную страницу')
     def open_home_page(self):
         self.open_url(Urls.HOME_PAGE)
         self.wait_for_element_clickable(HomePageLocators.ACCEPT_COOKIES_BTN)
